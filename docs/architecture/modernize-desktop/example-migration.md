@@ -83,7 +83,7 @@ The [SDK-style project](../../core/project-sdk/msbuild-props.md) for .NET is a l
 
 #### AssemblyInfo considerations
 
-Attributes are auto-generated on .NET projects. If the project contains an *AssemblyInfo.cs* file, the definitions will be duplicated, which will cause compilation conflicts. You can delete the older *AssemblyInfo.cs* file or disable autogeneration by adding the following entry to the .NET project file:
+Attributes are auto-generated on .NET projects. If the project contains an *AssemblyInfo.cs* file, the definitions will be duplicated, which will cause compilation conflicts. You can delete the older *AssemblyInfo.cs* file or disable auto-eneration by adding the following entry to the .NET project file:
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
