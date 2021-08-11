@@ -142,7 +142,7 @@ Right-click on the *Applications* folder and select the Windows Forms project yo
 
 ![Adding the Windows Forms project to the Packaging Project](./media/deploy-modern-applications/add-winforms-project.png)
 
-At this point, you can compile and generate the package but let's examine a couple of things. To have a better user experience, Visual Studio can autogenerate all the visual assets a modern application needs to handle icons and tile assets for the tile bar and start menu. Open the *Package.appxmanifest* file to access the Manifest Designer. You can then generate all the visual assets from a given image present on your project just by clicking **Create**.
+At this point, you can compile and generate the package but let's examine a couple of things. To have a better user experience, Visual Studio can auto-generate all the visual assets a modern application needs to handle icons and tile assets for the tile bar and start menu. Open the *Package.appxmanifest* file to access the Manifest Designer. You can then generate all the visual assets from a given image present on your project just by clicking **Create**.
 
 ![Screenshot of the Manifest Designer in Visual Studio](./media/deploy-modern-applications/manifest-designer.png)
 
