@@ -1,5 +1,5 @@
 ---
-title: "Named and Optional Arguments - C# Programming Guide"
+title: "Named and Optional Arguments"
 description: Named arguments in C# specify arguments by name, not position. Optional arguments can be omitted.
 ms.date: 03/14/2024
 f1_keywords: 
@@ -111,7 +111,7 @@ The preceding code shows a number of examples where optional parameters aren't a
 
 ## Caller infomation attributes
 
-[Caller information attributes](/dotnet/csharp/language-reference/attributes/caller-information), such as <xref:System.Runtime.CompilerServices.CallerFilePathAttribute>, <xref:System.Runtime.CompilerServices.CallerLineNumberAttribute>, <xref:System.Runtime.CompilerServices.CallerMemberNameAttribute>, and <xref:System.Runtime.CompilerServices.CallerArgumentExpressionAttribute>, are used to obtain information about the caller to a method. These attributes are especially useful when you're debugging or when you need to log information about method calls.
+[Caller information attributes](../../language-reference/attributes/caller-information.md), such as <xref:System.Runtime.CompilerServices.CallerFilePathAttribute>, <xref:System.Runtime.CompilerServices.CallerLineNumberAttribute>, <xref:System.Runtime.CompilerServices.CallerMemberNameAttribute>, and <xref:System.Runtime.CompilerServices.CallerArgumentExpressionAttribute>, are used to obtain information about the caller to a method. These attributes are especially useful when you're debugging or when you need to log information about method calls.
 
 These attributes are optional parameters with default values provided by the compiler. The caller should not explicitly provide a value for these parameters.
 

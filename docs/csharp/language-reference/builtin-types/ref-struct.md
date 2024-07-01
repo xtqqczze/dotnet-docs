@@ -1,5 +1,5 @@
 ---
-title: "ref struct types - C# reference"
+title: "ref struct types"
 description: Learn about the ref struct type in C#
 ms.date: 10/12/2022
 ---
@@ -69,5 +69,4 @@ For more information about `ref` fields, see the [Low-level struct improvements]
 
 ## See also
 
-- [C# reference](../index.md)
 - [The C# type system](../../fundamentals/types/index.md)

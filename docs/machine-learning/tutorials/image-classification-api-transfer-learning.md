@@ -28,7 +28,7 @@ In this tutorial, you learn how to:
 
 ## Image classification transfer learning sample overview
 
-This sample is a C# .NET Core console application that classifies images using a pretrained deep learning TensorFlow model. The code for this sample can be found on the [samples browser](/samples/dotnet/machinelearning-samples/mlnet-image-classification-transfer-learning/).
+This sample is a C# console application that classifies images using a pretrained deep learning TensorFlow model. The code for this sample can be found on the [samples browser](/samples/dotnet/machinelearning-samples/mlnet-image-classification-transfer-learning/).
 
 ## Understand the problem
 
@@ -123,7 +123,7 @@ In this tutorial, only bridge deck images are used.
 
 ### Create input and output classes
 
-1. Open the *Program.cs* file and replace the existing `using` statements at the top of the file with the following:
+1. Open the *Program.cs* file and replace the existing `using` directives at the top of the file with the following:
 
     [!code-csharp [ProgramUsings](~/machinelearning-samples/samples/csharp/getting-started/DeepLearning_ImageClassification_Binary/DeepLearning_ImageClassification/Program.cs#L1-L7)]
 
@@ -171,7 +171,7 @@ When training and validation data do not change often, it is good practice to ca
 
 ### Define paths and initialize variables
 
-1. Under the using statements, define the location of your assets, computed bottleneck values and `.pb` version of the model.
+1. Under the `using` directives, define the location of your assets, computed bottleneck values and `.pb` version of the model.
 
     [!code-csharp [DefinePaths](~/machinelearning-samples/samples/csharp/getting-started/DeepLearning_ImageClassification_Binary/DeepLearning_ImageClassification/Program.cs#L15-L17)]
 

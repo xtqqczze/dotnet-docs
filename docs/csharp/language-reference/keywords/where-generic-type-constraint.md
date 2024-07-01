@@ -1,6 +1,6 @@
 ---
 description: "where (generic type constraint) - C# Reference"
-title: "where (generic type constraint) - C# Reference"
+title: "where (generic type constraint)"
 
 ms.date: 04/28/2021
 f1_keywords:
@@ -82,7 +82,6 @@ For details on the syntax and use of constraints, see [Constraints on Type Param
 
 ## See also
 
-- [C# Reference](../index.md)
 - [Introduction to Generics](../../fundamentals/types/generics.md)
 - [new Constraint](./new-constraint.md)
 - [Constraints on Type Parameters](../../programming-guide/generics/constraints-on-type-parameters.md)

@@ -1,6 +1,6 @@
 ---
 description: "event - C# Reference"
-title: "event - C# Reference"
+title: "event keyword"
 ms.date: 07/20/2015
 f1_keywords:
   - "event"
@@ -46,7 +46,6 @@ An event can be marked as a virtual event by using the [virtual](./virtual.md) k
 
 ## See also
 
-- [C# Reference](../index.md)
 - [C# Keywords](./index.md)
 - [add](./add.md)
 - [remove](./remove.md)

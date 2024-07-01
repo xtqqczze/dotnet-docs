@@ -168,8 +168,12 @@ items:
                 href: ../../core/tools/dotnet-nuget-trust.md
               - name: dotnet nuget sign
                 href: ../../core/tools/dotnet-nuget-sign.md
+              - name: dotnet nuget why
+                href: ../../core/tools/dotnet-nuget-why.md
           - name: dotnet pack
             href: ../../core/tools/dotnet-pack.md
+          - name: dotnet package search
+            href: ../../core/tools/dotnet-package-search.md
           - name: dotnet publish
             href: ../../core/tools/dotnet-publish.md
           - name: dotnet restore
@@ -1037,6 +1041,10 @@ items:
                     href: ../../fundamentals/code-analysis/quality-rules/ca1869.md
                   - name: CA1870
                     href: ../../fundamentals/code-analysis/quality-rules/ca1870.md
+                  - name: CA1871
+                    href: ../../fundamentals/code-analysis/quality-rules/ca1871.md
+                  - name: CA1872
+                    href: ../../fundamentals/code-analysis/quality-rules/ca1872.md
               - name: SingleFile rules
                 items:
                   - name: Overview
@@ -1379,6 +1387,8 @@ items:
                     href: ../../fundamentals/code-analysis/quality-rules/ca2262.md
                   - name: CA2263
                     href: ../../fundamentals/code-analysis/quality-rules/ca2263.md
+                  - name: CA2264
+                    href: ../../fundamentals/code-analysis/quality-rules/ca2264.md
           - name: Code style rules
             items:
               - name: Overview
@@ -1740,6 +1750,10 @@ items:
             href: ../../fundamentals/syslib-diagnostics/syslib0052.md
           - name: SYSLIB0053
             href: ../../fundamentals/syslib-diagnostics/syslib0053.md
+          - name: SYSLIB0054
+            href: ../../fundamentals/syslib-diagnostics/syslib0054.md
+          - name: SYSLIB0055
+            href: ../../fundamentals/syslib-diagnostics/syslib0055.md
       - name: Source-generated code
         items:
           - name: Overview
@@ -1835,6 +1849,8 @@ items:
     - name: Overview
       href: ../../fundamentals/apicompat/overview.md
       displayName: api compatibility,apicompat
+    - name: Preview APIs
+      href: ../../fundamentals/apicompat/preview-apis.md
     - name: Diagnostic IDs
       href: ../../fundamentals/apicompat/diagnostic-ids.md
     - name: Assembly validation

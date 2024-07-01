@@ -1,5 +1,5 @@
 ---
-title: "Constraints on type parameters - C# Programming Guide"
+title: "Constraints on type parameters"
 description: Learn about constraints on type parameters. Constraints tell the compiler what capabilities a type argument must have.
 ms.date: 03/11/2024
 f1_keywords:
@@ -149,11 +149,11 @@ This pattern enables the C# compiler to determine the containing type for the ov
 ```csharp
 public interface IAdditionSubtraction<T> where T : IAdditionSubtraction<T>
 {
-    public abstract static IAdditionSubtraction<T> operator +(
+    static abstract IAdditionSubtraction<T> operator +(
         IAdditionSubtraction<T> left,
         IAdditionSubtraction<T> right);
 
-    public abstract static IAdditionSubtraction<T> operator -(
+    static abstract IAdditionSubtraction<T> operator -(
         IAdditionSubtraction<T> left,
         IAdditionSubtraction<T> right);
 }

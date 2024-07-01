@@ -1,6 +1,6 @@
 ---
 description: "C# Keywords"
-title: "C# Keywords"
+title: "Keywords"
 ms.date: 09/15/2022
 f1_keywords: 
   - "cs.keywords"
@@ -165,7 +165,3 @@ A contextual keyword is used to provide a specific meaning in the code, but it i
         [`yield`](../statements/yield.md)  
     :::column-end:::
 :::row-end:::
-
-## See also
-
-- [C# reference](../index.md)

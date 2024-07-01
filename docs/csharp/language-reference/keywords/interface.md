@@ -1,6 +1,6 @@
 ---
 description: "Use the `interface` keyword to define contracts that any implementing type must support. Interfaces provide the means to create common behavior among a set of unrelated types."
-title: "interface - C# Reference"
+title: "interface keyword"
 ms.date: 07/08/2022
 f1_keywords: 
   - "interface_CSharpKeyword"
@@ -78,7 +78,6 @@ For more information, see the [Interfaces](~/_csharpstandard/standard/interfaces
 
 ## See also
 
-- [C# Reference](../index.md)
 - [C# Keywords](index.md)
 - [Reference Types](reference-types.md)
 - [Interfaces](../../fundamentals/types/interfaces.md)

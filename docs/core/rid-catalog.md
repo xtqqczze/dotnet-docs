@@ -2,6 +2,7 @@
 title: .NET Runtime Identifier (RID) catalog
 description: Learn about the runtime identifier (RID) and how RIDs are used in .NET.
 ms.date: 10/27/2023
+ms.custom: linux-related-content
 ---
 # .NET RID Catalog
 
@@ -105,11 +106,11 @@ The following list shows a small subset of the most common RIDs used for each OS
 - `win-x86`
 - `win-arm64`
 
-For more information, see [.NET dependencies and requirements](./install/windows.md#dependencies).
+For more information, see [Install .NET on Windows](install/windows.md#supported-versions).
 
 ### Linux RIDs
 
-- `linux-x64` (Most desktop distributions like CentOS, Debian, Fedora, Ubuntu, and derivatives)
+- `linux-x64` (Most desktop distributions like CentOS Stream, Debian, Fedora, Ubuntu, and derivatives)
 - `linux-musl-x64` (Lightweight distributions using [musl](https://wiki.musl-libc.org/projects-using-musl.html) like Alpine Linux)
 - `linux-musl-arm64` (Used to build Docker images for 64-bit Arm v8 and minimalistic base images)
 - `linux-arm` (Linux distributions running on Arm like Raspbian on Raspberry Pi Model 2+)

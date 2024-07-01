@@ -57,6 +57,8 @@ items:
             href: ../../core/testing/unit-testing-fsharp-with-nunit.md
           - name: VB unit testing
             href: ../../core/testing/unit-testing-visual-basic-with-nunit.md
+          - name: NUnit runner
+            href: ../../core/testing/unit-testing-nunit-runner-intro.md
       - name: MSTest
         items:
           - name: Overview
@@ -71,6 +73,8 @@ items:
             href: ../../core/testing/unit-testing-mstest-sdk.md
           - name: MSTest runner
             href: ../../core/testing/unit-testing-mstest-runner-intro.md
+          - name: Configure MSTest
+            href: ../../core/testing/unit-testing-mstest-configure.md
           - name: Code analysis
             items:
               - name: Overview
@@ -87,6 +91,18 @@ items:
                     href: ../../core/testing/mstest-analyzers/mstest0015.md
                   - name: MSTEST0016
                     href: ../../core/testing/mstest-analyzers/mstest0016.md
+                  - name: MSTEST0019
+                    href: ../../core/testing/mstest-analyzers/mstest0019.md
+                  - name: MSTEST0020
+                    href: ../../core/testing/mstest-analyzers/mstest0020.md
+                  - name: MSTEST0021
+                    href: ../../core/testing/mstest-analyzers/mstest0021.md
+                  - name: MSTEST0022
+                    href: ../../core/testing/mstest-analyzers/mstest0022.md
+                  - name: MSTEST0025
+                    href: ../../core/testing/mstest-analyzers/mstest0025.md
+                  - name: MSTEST0029
+                    href: ../../core/testing/mstest-analyzers/mstest0029.md
               - name: Performance
                 items:
                   - name: Overview
@@ -119,6 +135,14 @@ items:
                     href: ../../core/testing/mstest-analyzers/mstest0013.md
                   - name: MSTEST0014
                     href: ../../core/testing/mstest-analyzers/mstest0014.md
+                  - name: MSTEST0017
+                    href: ../../core/testing/mstest-analyzers/mstest0017.md
+                  - name: MSTEST0023
+                    href: ../../core/testing/mstest-analyzers/mstest0023.md
+                  - name: MSTEST0024
+                    href: ../../core/testing/mstest-analyzers/mstest0024.md
+                  - name: MSTEST0026
+                    href: ../../core/testing/mstest-analyzers/mstest0026.md
       - name: Microsoft Testing Platform
         items:
           - name: Overview
@@ -126,15 +150,31 @@ items:
           - name: Comparison with VSTest
             href: ../../core/testing/unit-testing-platform-vs-vstest.md
           - name: Extensions
-            href: ../../core/testing/unit-testing-platform-extensions.md
+            items:
+              - name: Overview
+                href: ../../core/testing/unit-testing-platform-extensions.md
+              - name: Code Coverage
+                href: ../../core/testing/unit-testing-platform-extensions-code-coverage.md
+              - name: Diagnostics
+                href: ../../core/testing/unit-testing-platform-extensions-diagnostics.md
+              - name: Hosting
+                href: ../../core/testing/unit-testing-platform-extensions-hosting.md
+              - name: Policy
+                href: ../../core/testing/unit-testing-platform-extensions-policy.md
+              - name: Test Reports
+                href: ../../core/testing/unit-testing-platform-extensions-test-reports.md
+              - name: VSTest Bridge
+                href: ../../core/testing/unit-testing-platform-extensions-vstest-bridge.md
+          - name: Diagnostics overview
+            href: ../../core/testing/unit-testing-platform-diagnostics.md
           - name: Optional telemetry
             href: ../../core/testing/unit-testing-platform-telemetry.md
           - name: Known exit codes
             href: ../../core/testing/unit-testing-platform-exit-codes.md
           - name: Integration with dotnet test
             href: ../../core/testing/unit-testing-platform-integration-dotnet-test.md
-          - name: Runsettings
-            href: ../../core/testing/unit-testing-platform-runsettings.md
+          - name: Testing platform SDK
+            href: https://github.com/microsoft/testfx/blob/main/docs/testingplatform/Index.md
       - name: Run selective unit tests
         href: ../../core/testing/selective-unit-tests.md
       - name: Order unit tests
@@ -403,6 +443,8 @@ items:
             href: ../../core/deploying/native-aot/diagnostics.md
           - name: Native code interop
             href: ../../core/deploying/native-aot/interop.md
+          - name: Build native libraries
+            href: ../../core/deploying/native-aot/libraries.md
           - name: Cross-compilation
             href: ../../core/deploying/native-aot/cross-compile.md
           - name: Intro to AOT warnings
